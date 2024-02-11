@@ -1,0 +1,47 @@
+{
+	"name": "vscode-hotcrp-syntax",
+	"displayName": "HotCRP Paper Review Syntax",
+	"description": "Syntax highlighting for HotCRP's offline paper review forms",
+	"version": "1.0.0",
+	"publisher": "mpatelh",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mpatelh/vscode-hotcrp-syntax.git"
+	},
+	"icon": "images/icon.png",
+	"engines": {
+		"vscode": "^1.18.0"
+	},
+	"categories": [
+		"Programming Languages"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "hotcrp-review",
+				"aliases": [
+					"HotCRP Paper Review"
+				],
+				"firstLine": "^==\\+== [A-Za-z0-9]*$",
+				"extensions": [
+					".txt"
+				],
+				"configuration": "./language-configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "hotcrp-review",
+				"scopeName": "source.hotcrp-review",
+				"path": "./syntaxes/hotcrp-review.tmLanguage.json"
+			}
+		],
+		"snippets": [
+			{
+				"language": "hotcrp-review",
+				"path": "./snippets/hotcrp-review-snippets.json"
+			}
+		]
+	},
+	"license": "MIT"
+}

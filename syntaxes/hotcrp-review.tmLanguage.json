@@ -1,0 +1,18 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "hotcrp-review",
+	"patterns": [
+		{
+			"include": "#comment"
+		}
+	],
+	"repository": {
+		"comment": {
+			"patterns": [{
+				"name": "comment.hotcrp-review",
+				"match": "^(==[\\*\\-\\+]==.*$)"
+			}]
+		}
+	},
+	"scopeName": "source.hotcrp-review"
+}
