@@ -2,7 +2,7 @@
 	"name": "vscode-hotcrp-syntax",
 	"displayName": "HotCRP Paper Review Syntax",
 	"description": "Syntax highlighting for HotCRP's offline paper review forms",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"publisher": "mpatelh",
 	"repository": {
 		"type": "git",

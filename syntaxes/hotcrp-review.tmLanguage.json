@@ -4,7 +4,10 @@
 	"patterns": [
 		{
 			"include": "#comment"
-		}
+		},
+        {
+            "include": "text.html.markdown"
+        }
 	],
 	"repository": {
 		"comment": {
